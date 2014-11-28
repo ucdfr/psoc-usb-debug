@@ -9,12 +9,15 @@ How to Use
 
 1. Include a new USBUART module into your project and call it USBUART_DEBUG.
 
-2. Put the usb_debug.h and usb_debug.c into your working directory.
+2. Go to the clocks menu. Set IMO to Osc 24MHz. Set PLL to IMO at 48 MHz. Set
+ILO to 100 kHz. Set USB to IMOx2 48 Mhz. Set Master Clock to PLL_OUT at 48 MHz.
 
-3. Include the usb_debug.h header in the files where you want to use the
+3. Put the usb_debug.h and usb_debug.c into your working directory.
+
+4. Include the usb_debug.h header in the files where you want to use the
 printing functions.
 
-4. Call usb_init() once before using the functions.
+5. Call usb_init() once before using the functions.
 
 If you use Windows, install the driver containing the included .inf file. Look
 for a serial device in the Hardware Manager and take note of its name.
