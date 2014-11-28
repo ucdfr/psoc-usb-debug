@@ -11,8 +11,8 @@ How to Use
 
 2. Put the usb_debug.h and usb_debug.c into your working directory.
 
-3. #include the usb_debug.h in the files where you want to use the printing
-functions.
+3. Include the usb_debug.h header in the files where you want to use the
+printing functions.
 
 4. Call usb_init() once before using the functions.
 
