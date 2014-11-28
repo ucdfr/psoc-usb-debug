@@ -18,6 +18,9 @@ for a serial device in the Hardware Manager and take note of its name.
 
 The USB serial speed is 115200 baud by default.
 
+main.c is an example program that prints with all the functions about once per
+second.
+
 
 Functions
 ---------
