@@ -27,7 +27,7 @@ void usb_put_uint(unsigned long number)
 	int str_len;
 	char string[16];
 
-	str_len = sprintf(string, "%lu\r\n", (unsigned long)number);
+	str_len = sprintf(string, "%lu\r\n", number);
 	usb_put_str(string, str_len);
 } // usb_put_num()
 
@@ -38,7 +38,7 @@ void usb_put_int(long number)
 	int str_len;
 	char string[16];
 
-	str_len = sprintf(string, "%ld\r\n", (long)number);
+	str_len = sprintf(string, "%ld\r\n", number);
 	usb_put_str(string, str_len);
 } // usb_put_num()
 
